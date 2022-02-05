@@ -7,5 +7,16 @@
     </head>
     <body>
         <h1>Login</h1>
+        <form>
+            <p>
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username">   
+            </p>    
+            <p>
+                <label for="password">Password: </label>
+                <input type="text" name="password" id="password">                   
+            </p>
+            <button type="submit">Log in</button>
+        </form>
     </body>
 </html>
