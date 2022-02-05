@@ -42,6 +42,9 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+//      Retrieves String input from input fields with 'name = "username"' or 'name = "password"'
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
         getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request, response);
     }
 }
