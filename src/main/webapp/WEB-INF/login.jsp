@@ -24,5 +24,8 @@
             </p>
             <button type="submit">Log in</button>
         </form>
+        <p>
+            $(message)                               
+        </p>
     </body>
 </html>
