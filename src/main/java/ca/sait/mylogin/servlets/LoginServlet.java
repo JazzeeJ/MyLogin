@@ -45,6 +45,10 @@ public class LoginServlet extends HttpServlet {
 //      Retrieves String input from input fields with 'name = "username"' or 'name = "password"'
         String username = request.getParameter("username");
         String password = request.getParameter("password");
+        
+        if (username == null || username.isEmpty() || password == null || password.isEmpty()){
+            
+        }
         getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request, response);
     }
 }
