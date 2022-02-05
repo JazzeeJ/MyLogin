@@ -6,6 +6,8 @@
         <title>Home Page</title>
     </head>
     <body>
-        <h1>Home</h1>
+        <h1>Home Page</h1>
+        <p><strong>Hello abe</strong></p>
+        <a href="login?logout">Log out</a>
     </body>
 </html>
