@@ -1,9 +1,3 @@
-<%-- 
-    Document   : home
-    Created on : Feb 5, 2022, 11:37:56 AM
-    Author     : jason
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
